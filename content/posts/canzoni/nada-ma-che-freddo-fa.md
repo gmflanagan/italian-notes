@@ -1,12 +1,12 @@
 +++
-title = 'Nada - Ma che freddo fa, Mathilde Sigier'
+title = 'Belita - Ma che freddo fa (Nada cover)'
 date = 2023-12-13T20:28:50Z
 draft = false
 categories = ["Canzoni"]
 tags = ["2023", "Nada"]
 +++
 
-{{< youtube id="AGR2_1YxUfc" title="Nada - Ma Che Freddo Fa" allowfullscreen="true" >}}
+{{< youtube id="UHQUhWBNrGo" title="Belita - Ma che freddo fa (Nada cover)" allowfullscreen="true" >}}
 
 ***
 
@@ -17,7 +17,7 @@ tags = ["2023", "Nada"]
 - Basterebbe
 - Alzare
 - Sorriso
-- Mio viso
+- le foglie
 
 ## Lyrics
 
