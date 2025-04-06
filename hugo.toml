@@ -1,0 +1,15 @@
+baseURL = 'https://cominciaredallinizio.com'
+languageCode = 'en-gb'
+title = 'Learning Italian'
+theme = 'yinyang'
+paginate = 50
+
+[taxonomies]
+tag = 'tags'
+category = 'categories'
+
+[params]
+headTitle = "Learning Italian"
+description = "Misc. study notes"
+mainSections = ["posts"]
+extraCSSFiles = ["css/site.css"]

@@ -1,0 +1,24 @@
+<div class="gallery-container">
+    <div class="gallery pswp-gallery pswp-gallery--single-column" class="flex-child">
+      {{- range (.Page.Resources.Match (printf "%s/%s*" (.Get "folder") (.Get "prefix") ) ) }}
+      {{ $thumbnail := .Resize "320x" }}
+      <a class="gallery-item" href="{{ .Permalink }}"
+        data-pswp-width="{{ .Width }}"
+        data-pswp-height="{{ .Height }}"
+        target="_blank">
+          <img class="gallery-img" src="{{ $thumbnail.Permalink }}" alt="" />
+      </a>
+      <!-- <span class="show" style="float:right"><em>{{ .Name }}</em></span> -->
+      {{ end }}
+    </div>
+    <div class="flex-child">
+        <ul>
+      {{- range (.Page.Resources.Match (printf "%s/%s*" (.Get "folder") (.Get "prefix") ) ) }}
+      <li>{{ .Title }}</li>
+      {{ end }}
+        </ul>
+    </div>
+</div>
+{{ if (.Get "title") }}
+<span class="show"><em>{{ (.Get "title") }}</em></span>
+{{ end }}

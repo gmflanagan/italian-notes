@@ -1,0 +1,24 @@
+
+.gallery > * {
+    display: none;
+}
+.gallery :first-child {
+    display: block;
+}
+.gallery-item > img {
+    border: solid 2px rgb(24, 44, 24);
+}
+
+.gallery-container {
+    margin-bottom: 0.5rem;
+    font-size: small;
+}
+
+@media(min-width: 481px) {
+    .gallery-container {
+        display: flex;
+    }
+    .gallery-container > div {
+        flex: 1;
+    }
+}

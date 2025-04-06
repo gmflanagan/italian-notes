@@ -1,0 +1,6 @@
+[context.production.environment]
+TZ = "Europe/Dublin"
+
+[build]
+publish = "public"
+command = "hugo --gc --config=hugo.toml"
